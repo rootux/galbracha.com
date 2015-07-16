@@ -14,6 +14,6 @@
     "tests"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.0.0"
+    "paper-elements": "Polymer/paper-elements#~0.5.6"
   }
 }

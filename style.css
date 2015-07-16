@@ -19,6 +19,22 @@ body {
 	min-height: 100%;
 }
 
+paper-progress {
+      width: 100%;
+   --paper-progress-active-color: #625F63;
+   --paper-progress-secondary-color: #7E7F9A;
+   --paper-progress-container-color: #97A7B3;
+   transition: all 1000ms;
+}
+
+paper-progress::shadow #activeProgress {
+  background-color: #e91e63;
+}
+
+paper-icon-button {
+	padding:0;
+}
+
 .strip1 {
 	width: 45%;
 	border-left: 1em solid #625F63;

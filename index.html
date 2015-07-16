@@ -3,9 +3,16 @@
 <link rel="stylesheet" type="text/css" href="style.css">
 <meta name="Description" content="Hi! I'm Gal Bracha. I craft ideas into digital formations.">
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+
+<script src="script.js"></script>
+<script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="bower_components/paper-elements/paper-elements.html">
+<link rel="import" href="bower_components/paper-progress/paper-progress.html">
 <title>Gal Bracha</title>
 </head>
 <body>
+<paper-progress id="progress" class="transiting" indeterminate></paper-progress>
 <div>
 	<div class="strip1">
 	<div class="strip2">
@@ -14,7 +21,7 @@
 		<div class="about">
 		<div class="logo"></div>
 		<h1>
-			Hi. I'm Gal Bracha.
+		Hi. I'm Gal Bracha.
 		</h1>
 		<p>
 		I craft ideas into digital formations.
@@ -45,7 +52,7 @@
 					<a href="https://stackoverflow.com/users/395804/gal-bracha">Stack Overflow</a>
 				</li>
 				<li>
-					<a href="https://github.com/rootux">Github</a>
+					<a href="https://github.com/rootux"><paper-icon-button src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png"></paper-icon-button>Github</a>
 				</li>
 			</ul>
 		</div>
