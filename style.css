@@ -1,0 +1,138 @@
+body {
+	background: url(bg.jpg) no-repeat center center fixed;  
+  	margin: 0px 0px 0px 0px;
+	font-family: 'Open Sans', sans-serif;
+  	background-color: #f5f5f5;
+  	background-position: right;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	height: 100%;
+	font-size: 16;
+    font-weight: 400;
+    color: #4d4943;
+
+    margin: 0px 0px 0px 0px;
+    background-color: #fcfcfc;
+	margin: 0px 0px 0px 0px;
+	min-height: 100%;
+}
+
+.strip1 {
+	width: 45%;
+	border-left: 1em solid #625F63;
+	min-height: 100%;
+	background-color: #f5f5f5;
+	border-right:1px solid rgba(74,73,71,0.15);
+	padding-right: 2em;
+}
+
+.strip2 {
+	border-left: 1em solid #7E7F9A;
+	min-height: 100%;
+}
+
+.strip3 {
+	border-left: 1em solid #97A7B3;
+	min-height: 100%;
+}
+
+.strip4 {
+	border-left: 1em solid #B288C0;
+	min-height: 100%;
+}
+
+.logo {
+	height:1em;
+	/* TODO Put a nice logo image here */
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px solid rgba(179,89,89,0.25);
+    color: #7E7F9A;
+}
+
+a:hover {
+    background-color: #B288C0;
+    border-bottom: 1px solid rgba(140,70,70,0.15);
+    color: white;    
+}
+
+h2 { 
+    display: inline;
+    font-weight: 700;
+    font-size: 120%;
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+li {
+	margin-bottom: 3px;
+}
+
+.content {
+	margin-top: 0px;
+	padding-top: 0px;
+	color: #333;
+	font-size: 120%;
+	text-align: left;
+}
+
+.about {
+	padding-left: 2em;
+	padding-top: 0px;
+	font-size: 120%;
+	text-align: left;
+}
+
+.about p {
+	margin-top: 0;
+}
+
+.about p:last-child {
+	margin-bottom: 0;
+}
+
+.contact {
+	padding-left: 2em;
+	padding-top: 3.3em;
+	padding-bottom: 50px;
+}
+
+.contact h2 {
+	margin: 0;
+    font-family: 'Open Sans';
+}
+
+.contact ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+em {
+	font-weight: 600;
+	font-style: normal;
+}
+
+@media only screen and (max-device-width: 480px) {
+	body {
+  		background-position: center;
+	}
+
+	.strip1 {
+		width: 45%;
+		border-left: 0;
+		min-height: 100%;
+		background-color: #f5f5f5;
+		border-right:1px solid rgba(74,73,71,0.15);
+		padding-right: 2em;
+	}	
+	.strip3 {
+		border-left: 0;
+	}
+	.strip4 {
+		border-left: 0;
+	}
