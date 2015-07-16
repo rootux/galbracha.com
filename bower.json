@@ -1,0 +1,19 @@
+{
+  "name": "galbracha.com",
+  "version": "0.0.1",
+  "homepage": "https://github.com/rootux/galbracha.com",
+  "authors": [
+    "Gal Bracha <galbra@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0"
+  }
+}
