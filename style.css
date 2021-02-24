@@ -108,6 +108,11 @@ li {
 	margin-top: 0;
 }
 
+.about a {
+	display: block;
+	padding-top: 0.5em;
+}
+
 .about p:last-child {
 	margin-bottom: 0;
 }
